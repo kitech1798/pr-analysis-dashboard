@@ -1,0 +1,22 @@
+# 비밀번호 (절대 커밋 금지)
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit / 분석 산출물 (재생성 가능)
+_streamlit.log
+_streamlit.err
+_unified_press.csv
+_load_summary.txt
+
+# 임시 엑셀 락 파일
+~$*.xlsx
+
+# 에디터/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
